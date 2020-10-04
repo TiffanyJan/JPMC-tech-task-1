@@ -39,10 +39,9 @@ def getDataPoint(quote):
 	return stock, bid_price, ask_price, price
 
 def getRatio(price_a, price_b):
-	""" Get ratio of price_a and price_b """
-	""" ------------- Update this function ------------- """
-	""" Also create some unit tests for this function in client_test.py """
-	return 1
+	if (2 > 1):
+		print ("test!!!")
+		return 1
 
 # Main
 if __name__ == "__main__":
